@@ -1,5 +1,4 @@
-
-var list = document.getElementById('List');
+var list = document.getElementById('list');
 var add = document.getElementById('addElem');
 
 add.addEventListener('click', function(){
@@ -7,5 +6,4 @@ add.addEventListener('click', function(){
 	var item = 'item ' + table.length;
 	list.innerHTML += '<li>' + item + '</li>';
 })
-
 
